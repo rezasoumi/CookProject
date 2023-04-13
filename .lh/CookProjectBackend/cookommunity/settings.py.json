@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1678088955311,
@@ -12,6 +12,14 @@
                 {
                     "date": 1678448776737,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,10 @@\n \r\n # SECURITY WARNING: don't run with debug turned on in production!\r\n DEBUG = True\r\n \r\n-ALLOWED_HOSTS = []\r\n+ALLOWED_HOSTS = ['*']\r\n+CORS_ALLOW_ALL_ORIGINS = True\r\n \r\n # Application definition\r\n \r\n INSTALLED_APPS = [\r\n@@ -41,16 +42,16 @@\n     'corsheaders',\r\n ]\r\n \r\n MIDDLEWARE = [\r\n+    'corsheaders.middleware.CorsMiddleware',\r\n     'django.middleware.security.SecurityMiddleware',\r\n     'django.contrib.sessions.middleware.SessionMiddleware',\r\n     'django.middleware.common.CommonMiddleware',\r\n     # 'django.middleware.csrf.CsrfViewMiddleware',\r\n     'django.contrib.auth.middleware.AuthenticationMiddleware',\r\n     'django.contrib.messages.middleware.MessageMiddleware',\r\n     'django.middleware.clickjacking.XFrameOptionsMiddleware',\r\n-    'corsheaders.middleware.CorsMiddleware',\r\n ]\r\n ROOT_URLCONF = 'cookommunity.urls'\r\n \r\n TEMPLATES = [\r\n@@ -79,9 +80,10 @@\n     'default': {\r\n         'ENGINE': 'django.db.backends.mysql',\r\n         'NAME': 'cookommunity',\r\n         'USER': 'root',\r\n-        'PASSWORD': 'root'\r\n+        'PASSWORD': 'root\r\n+        '\r\n     }\r\n }\r\n \r\n # Password validation\r\n@@ -128,7 +130,4 @@\n \r\n # Media files\r\n MEDIA_URL = '/media/'\r\n MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\r\n-\r\n-\r\n-CORS_ORIGIN_ALLOW_ALL = True\r\n"
+                },
+                {
+                    "date": 1678450273432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,10 +80,9 @@\n     'default': {\r\n         'ENGINE': 'django.db.backends.mysql',\r\n         'NAME': 'cookommunity',\r\n         'USER': 'root',\r\n-        'PASSWORD': 'root\r\n-        '\r\n+        'PASSWORD': '0024495255Rs'\r\n     }\r\n }\r\n \r\n # Password validation\r\n"
+                },
+                {
+                    "date": 1678450286249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,10 @@\n     'default': {\r\n         'ENGINE': 'django.db.backends.mysql',\r\n         'NAME': 'cookommunity',\r\n         'USER': 'root',\r\n-        'PASSWORD': '0024495255Rs'\r\n+        'PASSWORD': 'root\r\n+        '\r\n     }\r\n }\r\n \r\n # Password validation\r\n"
                 }
             ],
             "date": 1678088955311,

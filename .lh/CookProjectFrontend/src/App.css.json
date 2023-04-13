@@ -1,0 +1,18 @@
+{
+    "sourceFile": "CookProjectFrontend/src/App.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1678450220838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1678450220837,
+            "name": "Commit-0",
+            "content": "@font-face {\r\n  font-family: IranSans;\r\n  src: url(./fonts/IRANSansXMedium.ttf);\r\n}\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: \"IranSans\", IranSans;\r\n  box-sizing: border-box;\r\n  direction: rtl;\r\n}\r\n.success-notif{\r\n  width: 300px;\r\n  text-align: center;\r\n  align-items: center;\r\n  margin: 10px auto;\r\n}\r\n.eror-notif{\r\n  width: 300px;\r\n  text-align: center;\r\n  align-items: center;\r\n  margin: 10px auto !important;\r\n  display: none;\r\n}\r\n.contain.eror-notif{\r\n  display: block;\r\n}\r\n.home-div{\r\n  color: aliceblue;\r\n  width: 100%;\r\n  margin: 10px;\r\n  justify-content: center;\r\n  align-items: center;\r\n  display: flex;\r\n}\r\n.home-icon{\r\n  height: 2em;\r\n}\r\n.reg-col {\r\n  margin: 0 5px;\r\n}\r\n.reg-row {\r\n  display: flex;\r\n  flex-direction: row;\r\n  align-items: center;\r\n  align-content: space-between;\r\n}\r\n.f-reg{background: #261236;\r\n  height: auto;\r\n  width: auto;\r\n  z-index: 1;\r\n  display: flex;\r\n  margin: 0 auto;\r\n  overflow: hidden;\r\n  padding: 32px 32px;\r\n  border-radius: 29px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);\r\n  @media screen and (max-width: 480px) {\r\n    padding: 32px 32px;\r\n  }}\r\n  .f-form{\r\n    flex-direction: column;\r\n    align-items: center;\r\n    display: flex;\r\n  }\r\n  "
+        }
+    ]
+}
